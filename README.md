@@ -31,9 +31,9 @@ This project is designed to run in [Google Colab](https://colab.research.google.
 To exactly reproduce the figures in this report:
 
 1. Clone the repository.
-2. Run all cells in `Mary_Ntim_A1.ipynb` without modifying any parameters.
-3. The plots for average reward and optimal action selection will be saved or displayed automatically.
-4. Random seeds and experimental configurations are fixed to ensure replicability across runs.
+2. Run all cells in `Multi_Arm_Bandit_Code.ipynb` without modifying any parameters.
+4. The plots for average reward and optimal action selection will be saved or displayed automatically.
+5. Random seeds and experimental configurations are fixed to ensure replicability across runs.
 
 No GPU or external data is required.
 
