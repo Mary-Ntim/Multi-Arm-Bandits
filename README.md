@@ -1,6 +1,4 @@
-# Multi-Arm-Bandits
 # Multi-Armed Bandit Algorithms: A Comparative Study
-
 This repository contains a comprehensive implementation and evaluation of several foundational algorithms used for solving the multi-armed bandit problem. The objective is to compare how different exploration strategies perform under both stationary and non-stationary reward settings. The experiments were conducted as part of an academic assignment in reinforcement learning.
 
 ---
@@ -27,9 +25,23 @@ Each algorithm was evaluated over **1000 simulations** of **2000 time steps** ea
 
 This project is designed to run in [Google Colab](https://colab.research.google.com/) or a Python 3.x environment.
 
-### Dependencies
 
-Install required packages using:
+### Reproducing the Results
 
-```bash
-pip install numpy matplotlib
+To exactly reproduce the figures in this report:
+
+1. Clone the repository.
+2. Run all cells in `Mary_Ntim_A1.ipynb` without modifying any parameters.
+3. The plots for average reward and optimal action selection will be saved or displayed automatically.
+4. Random seeds and experimental configurations are fixed to ensure replicability across runs.
+
+No GPU or external data is required.
+
+### Reproducibility Details
+
+All experiments use:
+- Fixed NumPy seeds for each simulation (to ensure independence and consistency)
+- Shared drift/permutation configurations for non-stationary settings
+- Identical reward initialization across algorithms in each trial
+
+This ensures fair comparison and supports full experimental reproducibility, in line with ML research standards.
